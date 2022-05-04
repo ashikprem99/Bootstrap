@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <title>Github login page</title>
+  <style type="text/css">
+    
+    body
+    {
+    	background-color: white;
+      	margin-top: 100px;
+    }
+
+     a:link 
+    {
+        text-decoration: none;
+    }
+    a:hover
+    {
+      color: #2da44e;
+      text-decoration: none;
+    }
+
+    .container
+    {
+      	font-weight: lighter;
+      	font-size: medium;
+      	background-color:#eef5f4;
+      	color: black;
+      	padding: 10%;
+      	border-radius: 10px;
+      	margin: 0 auto;
+      	width: 600px;
+      	border-style: solid;
+      	border-color: #dde2e8;
+    }
+
+    .container2
+    {  
+      	font-weight: lighter;
+      	font-size: medium;   
+      	background-color:#ffffff; 
+      	color: black;
+      	padding: 5px;
+      	border-radius: 10px;
+      	margin:auto;
+      	width: 600px;
+      	height: 45px;
+      	text-align: center;
+      	border-style: solid;
+      	border-color: #d8dee4;
+    }
+
+    .github-font
+    {
+    	font-weight: lighter;
+      	font-size: xx-large;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+	
+	<!-- logo -->
+
+  	<div class="text-center">
+    	<img src="git logo.png" class="image" style="width:100px;  height:100px;">
+  	</div>
+  	<br><br>
+
+  	<!-- heading 1 -->
+  	<div class="github-font">
+    	<p><center>Sign-in to GitHub</center></p>
+  	</div>
+  	<br>
+
+
+  	<!-- container 1 for username and password -->
+  	<div class="container p-5 ">
+    	<div class=" justify-content-center align-items-center ">
+
+      		<div class="form-group">
+        		<label for="name">Username or email address</label>
+        		<input type="name" class="form-control" id="name"  name="name">
+      		</div>
+      		<div class="form-group">
+        		<div class="d-flex">
+          			<div class="p-0">
+            			<label for="pwd">Password</label>
+          			</div>
+          			<div class="ml-auto p-0">
+            			<a href="#">Forgot password?</a>
+          			</div>
+       			</div>
+
+        		<input type="password" class="form-control" id="pwd" name="pswd">
+      		</div>
+        	<br>
+      		<button type="submit" class="btn btn-block" style="background-color: #2da44e ; color: white; border-radius: 10px ;font-weight: bold; font-size: medium;">Sign in
+      		</button>
+      		</div>
+    	</div>
+  	</div>
+    <br>
+
+
+  	<!-- container 2 for  -->
+  	<div class="container2">
+      	<p>New to GitHub?&nbsp&nbsp<a href="#">Create an account</a></p>
+    </div>
+  	<br><br><br><br><br><br>
+
+
+  	<!-- links -->
+  	<ul class="nav justify-content-center" style="font-weight: lighter;
+    font-size: medium;">
+    	<li class="nav-item">
+      		<a class="nav-link" href="#">Terms</a>
+    	</li>
+    	<li class="nav-item">
+      		<a class="nav-link" href="#">Privacy</a>
+    	</li>
+    	<li class="nav-item">
+      		<a class="nav-link" href="#">Security</a>
+    	</li>
+    	<li class="nav-item">
+      		<a class="nav-link disabled" href="#">Contact Github</a>
+    	</li>
+  	</ul>
+
+
+</body>
